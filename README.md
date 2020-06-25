@@ -11,18 +11,25 @@ Il progetto è organizzato in package
 
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Diagrammadelleclassi.png)
 Come si puo vedere dal diagramma delle classi c'è la seguente struttura:
+
 1. PackageController: all'interno è presente la classe controller che si occupa di gestire le interazioni con l'utente;
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Controller.png)
+
 2. PackageException: all'interno sono presenti le eccezioni lanciate in caso si errori
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/excpetion.png)
+
 3. PackageFilters: all' interno sono presenti tutte le classi che servono per implementare le funzionalità di filtraggio
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Filters.png)
+
 4. PackageModels: all'interno sono presenti tutte le classi che servono al sistema per creare le strutture dati e le statistiche
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Models.png)
+
 5. PackageSarsing_and_others: all'interno è presente la classe che effettua il downloading e il parsing dei 50 tweets 
-![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/Parsingandothers.png)
+![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Parsingandothers1.png)
+
 6: PackageStatistics: all'interno sono prenti le classi che servono per implementare le statistiche 
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Statistics.png)
+
 7: PackageUtils: all'interno sono presenti una classe che serve per implementare i filtri e una classe che effettua lo split della stringa created_at
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/utils.png)
 
