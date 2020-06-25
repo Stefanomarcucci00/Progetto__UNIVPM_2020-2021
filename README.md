@@ -16,6 +16,7 @@ Come si puo vedere dal diagramma delle classi c'è la seguente struttura:
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Controller.png)
 
 2. PackageException: all'interno sono presenti le eccezioni lanciate in caso si errori
+
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/excpetion.png)
 
 3. PackageFilters: all' interno sono presenti tutte le classi che servono per implementare le funzionalità di filtraggio
