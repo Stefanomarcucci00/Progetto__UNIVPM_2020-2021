@@ -26,9 +26,9 @@ Come si puo vedere dal diagramma delle classi c'è la seguente struttura:
 7: PackageUtils: all'interno sono presenti una classe che serve per implementare i filtri e una classe che effettua lo split della stringa created_at
 ![https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/utils.png](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/utils.png)
 
-![https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Diagrammasequenza.png](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Diagrammasequenza.png)
-Attraverso il seguente diagramma l'utente puo capire il funzionamento dell'applicazione e l'interazione di essa con l'utente.
 
+Attraverso il seguente diagramma l'utente puo capire il funzionamento dell'applicazione e l'interazione di essa con l'utente.
+![https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Diagrammasequenza.png](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Diagrammasequenza.png)
 # Descrizione
 L'applicazione una volta avviata puo essere interrogata attraverso l'utilizzo dell applicativo Postman. 
 E possibile inoltre effettuare operazioni di tipo GET e POST inserendo le seguenti rotte avremo un comportamento diverso e di conseguenza una risposta diversa  dall'applicazione
