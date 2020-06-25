@@ -25,13 +25,15 @@ Come si puo vedere dal diagramma delle classi c'è la seguente struttura:
 4. PackageModels: all'interno sono presenti tutte le classi che servono al sistema per creare le strutture dati e le statistiche
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Models.png)
 
-5. PackageSarsing_and_others: all'interno è presente la classe che effettua il downloading e il parsing dei 50 tweets 
+5. PackageSarsing_and_others: all'interno è presente la classe che effettua il downloading e il parsing dei 50 tweets
+
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Parsingandothers1.png)
 
 6: PackageStatistics: all'interno sono prenti le classi che servono per implementare le statistiche 
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/Statistics.png)
 
 7: PackageUtils: all'interno sono presenti una classe che serve per implementare i filtri e una classe che effettua lo split della stringa created_at
+
 ![LOGO](https://github.com/Stefanomarcucci00/Progetto__UNIVPM_2020-2021/blob/master/UMLPhotos/utils.png)
 
 
