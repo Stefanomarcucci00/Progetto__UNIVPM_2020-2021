@@ -1,0 +1,47 @@
+
+    
+package it.univpm.Project.Filters;
+
+
+import java.util.ArrayList;
+/**
+ * Class that implements the interface and does the filtering of the "follower" tag with the "$lt" operator 
+ * @author Sefano Marcucci,Alessandro Celani
+ *
+ */
+import it.univpm.Project.models.Tweet;
+
+
+public class FilterFollowerLt implements Filter {
+       
+    private String field="follower";
+    private String operator="$lt";
+ 
+    public String getField() {
+        return this.field;
+    }
+
+
+    public String getOperator() {
+        return operator;
+    }
+
+
+    @Override
+    public Boolean satisfied(String[] Valuefilters, Tweet recordtocmp) {
+        long num1 = 0;
+    
+        for(int i=0; i<Valuefilters.length ;i++)
+            num1=Long.parseLong(Valuefilters[i]);
+            if(( num1 > recordtocmp.getFollower() ) )
+                return true;
+        return false;
+    }
+}
+ 
+
+
+
+
+
+
